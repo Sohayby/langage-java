@@ -5,9 +5,10 @@
  */
 package test1;
 
+import java.io.DataInputStream;
 import java.io.IOException;
 import test1.util.ConsoleUtil;
-import test1.util.MathUtil1;
+import test1.util.MathUtil;
 
 /**
  *
@@ -21,10 +22,9 @@ public class FonctionCarre {
 
         String txt = ConsoleUtil.lireTexte("Veuillez entrer un nombre entier: ");
         int nombre = Integer.valueOf(txt);
-        int nombreAuCarre = MathUtil1.carre(nombre);
+        int nombreAuCarre = MathUtil.carre(nombre);
         
         System.out.println("Le carré de " + nombre + " est " + nombreAuCarre);
     }
 
 }
-

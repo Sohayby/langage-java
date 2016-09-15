@@ -5,7 +5,7 @@
  */
 package test1;
 
-import test1.util.MathUtil1;
+import test1.util.MathUtil;
 
 /**
  *
@@ -15,7 +15,7 @@ public class CalculeExposant {
     
     public static void main(String[] args) {
         
-        int res = MathUtil1.exposant(2, 4);
+        int res = MathUtil.exposant(2, 4);
         
         System.out.println( res );
     }

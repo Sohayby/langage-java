@@ -5,7 +5,7 @@
  */
 package test1;
 
-import test1.util.MathUtil1;
+import test1.util.MathUtil;
 
 /**
  *
@@ -16,7 +16,7 @@ public class CalculeFactorielle {
     public static void main(String[] args) {
         
         int n = 3;
-        int res = MathUtil1.factorielle(n);
+        int res = MathUtil.factorielle(n);
         
         System.out.println("Factorielle de " + n + " vaut: " + res);
         System.out.format("Factorielle de %d vaut: %d\n", n, res);

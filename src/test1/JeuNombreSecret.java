@@ -7,7 +7,7 @@ package test1;
 
 import java.io.IOException;
 import test1.util.ConsoleUtil;
-import test1.util.MathUtil1;
+import test1.util.MathUtil;
 
 /**
  *
@@ -17,12 +17,7 @@ public class JeuNombreSecret {
 
     public static void main(String[] args) throws IOException {
 
-        String MinStr=ConsoleUtil.lireTexte("Minimum");
-         int Min = Integer.valueOf(MinStr);
-         String MaxStr=ConsoleUtil.LireTexte("Maximum");
-        
-                
-        int nombreSecret = MathUtil1.genererNbrAleat();
+        int nombreSecret = MathUtil.genererNbr1Et100();
         int essai;
         int nbEssais = 0;
                 
